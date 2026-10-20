@@ -2,7 +2,7 @@
 
 ## Software
 
-New reference implementation. Unit/integration tests cover unique asset IDs, strict payload validation, unknown assets, atomic inspection/event creation, photo-size/type gates, allowed/rejected transitions, event history and CSV handling. GitHub Actions tests Python 3.10 and 3.12. Record the verified run link after execution.
+New reference implementation. Unit/integration tests cover unique asset IDs, strict payload validation, unknown assets, atomic inspection/event creation, photo-size/type gates, allowed/rejected transitions, event history and CSV handling. GitHub Actions tests Python 3.10 and 3.12. All 13 tests passed locally and in [verified run #1](https://github.com/Jayshah3309/railway-track-traceability/actions/runs/39407132355), commit `b2492be`, on 20 October 2026 for both Python 3.10 and 3.12. The Python setup action emitted runtime deprecation warnings; they did not fail the run.
 
 Tests use temporary databases and synthetic records. Passing tests do not demonstrate QR camera decoding, outdoor readability, laser/material compatibility, railway-system integration or trained-model performance.
 

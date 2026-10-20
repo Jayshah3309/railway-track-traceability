@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+# Local records, photos and generated reports
+/data/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+.env
+secrets.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

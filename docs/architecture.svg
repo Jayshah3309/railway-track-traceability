@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="810" viewBox="0 0 1200 810"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs><rect width="1200" height="810" fill="#f8fafc"/>
+<text x="30" y="42" font-family="Arial,sans-serif" font-size="25" fill="#16324f">RAILWAY TRACK ASSET TRACEABILITY · REFERENCE ARCHITECTURE</text>
+<text x="30" y="78" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Local software demo · synthetic assets · AI, laser control and railway integrations not implemented</text>
+<rect x="40" y="130" width="320" height="145" rx="8" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="60" y="170" font-family="Arial,sans-serif" font-size="23" fill="#16324f">REGISTER ASSET</text>
+<text x="60" y="210" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Unique ID + kind + demo location</text>
+<text x="60" y="245" font-family="Arial,sans-serif" font-size="17" fill="#16324f">SQLite registry</text>
+<rect x="440" y="130" width="320" height="145" rx="8" fill="#ecfdf5" stroke="#94a3b8"/>
+<text x="460" y="170" font-family="Arial,sans-serif" font-size="23" fill="#16324f">GENERATE QR SVG</text>
+<text x="460" y="210" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Versioned ID payload only</text>
+<text x="460" y="245" font-family="Arial,sans-serif" font-size="17" fill="#16324f">No laser toolpath</text>
+<rect x="840" y="130" width="320" height="145" rx="8" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="860" y="170" font-family="Arial,sans-serif" font-size="21" fill="#16324f">EXTERNAL QR READER</text>
+<text x="860" y="210" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Mock printed label or screen</text>
+<text x="860" y="245" font-family="Arial,sans-serif" font-size="17" fill="#16324f">Decode and paste text into CLI</text>
+<polyline points="360,200 440,200" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="760,200 840,200" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="840" y="360" width="320" height="160" rx="8" fill="#dbeafe" stroke="#94a3b8"/>
+<text x="860" y="400" font-family="Arial,sans-serif" font-size="23" fill="#16324f">INSPECTION CLI</text>
+<text x="860" y="440" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Registered ID + actor + note</text>
+<text x="860" y="475" font-family="Arial,sans-serif" font-size="17" fill="#16324f">Optional image bytes / checksum</text>
+<polyline points="1000,275 1000,360" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="440" y="360" width="320" height="160" rx="8" fill="#ecfdf5" stroke="#94a3b8"/>
+<text x="460" y="400" font-family="Arial,sans-serif" font-size="23" fill="#16324f">LOCAL SQLITE</text>
+<text x="460" y="440" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Assets · issues · status events</text>
+<text x="460" y="475" font-family="Arial,sans-serif" font-size="17" fill="#16324f">Transactional updates</text>
+<polyline points="840,440 760,440" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="200,275 200,330 600,330 600,360" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="360" width="320" height="160" rx="8" fill="#fef3c7" stroke="#94a3b8"/>
+<text x="60" y="400" font-family="Arial,sans-serif" font-size="23" fill="#16324f">HISTORY AND CSV</text>
+<text x="60" y="440" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Ordered events / current report</text>
+<text x="60" y="475" font-family="Arial,sans-serif" font-size="17" fill="#16324f">No image bytes in CSV</text>
+<polyline points="440,440 360,440" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="585" width="1120" height="105" rx="8" fill="#fff" stroke="#94a3b8"/>
+<text x="65" y="621" font-family="Arial,sans-serif" font-size="23" fill="#16324f">Repair flow: OPEN → ASSIGNED → RESOLVED → VERIFIED</text>
+<text x="65" y="662" font-family="Arial,sans-serif" font-size="18" fill="#16324f">Rework: RESOLVED → ASSIGNED. Reopen: VERIFIED → OPEN. Actor names are self-reported.</text>
+<text x="40" y="742" font-family="Arial,sans-serif" font-size="18" fill="#16324f">A QR identifies a record; it does not prove component identity, mark durability, repair quality or approval.</text>
+<text x="40" y="780" font-family="Arial,sans-serif" font-size="17" fill="#16324f">No camera capture, trained model, machine interface, authenticated roles or UDM/TMS endpoint is included.</text>
+</svg>

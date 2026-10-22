@@ -1,4 +1,6 @@
-# Setup and local workflow
+# Original CLI setup and local workflow
+
+For the authenticated portal, see [web setup](web-app.md). This page documents the CLI, whose actor strings and photo signature gate remain unchanged.
 
 Install Python 3.10 or newer. Create/activate a virtual environment and run `python -m pip install -r requirements.txt`. SQLite is included with standard Python; qrcode 8.2 generates SVG without Pillow. Run from the repository directory. No service account, server, AI model or hardware connection is required.
 

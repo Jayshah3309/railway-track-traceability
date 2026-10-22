@@ -26,3 +26,10 @@ Tests use temporary databases and synthetic records. Passing tests do not demons
 Use `measurements.csv` for repeated reader trials: count total attempts, exact payload matches and failures at stated distance, angle, lighting, mark dimensions and surface condition. Report latency with a defined start/end event and trial count. A single successful phone scan is not verification of barcode quality or environmental durability.
 
 Do not quote model accuracy without a labelled dataset, held-out evaluation and defined task. No dataset/model or AI score is included. Do not infer railway approval or safety readiness from a working local database demo.
+
+
+## Web portal verification — 22 October 2026
+
+The expanded local suite passed **29 tests** on Python 3.12: all 13 original CLI tests plus 16 web tests. The final local run used Flask 3.1.3, Werkzeug 3.1.9 and Pillow 12.3.0. Web coverage includes account/role restrictions, assignment/reassignment/rework/reopen, no skipped states, independent verification, forged actor-field rejection, CSRF rejection, session expiration/revocation/disable, login lockout, decoded photo limits/EXIF removal/checksums, CSV/QR and preserved legacy records.
+
+The existing Python 3.10/3.12 CI matrix is retained and now compiles both Python modules. Web CI run evidence will be recorded after the published version is inspected. No live railway, camera scan, real repair or public deployment is validated by these tests.
